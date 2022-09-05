@@ -42,6 +42,6 @@ app.get("/", function (req, res) {
 });
 
 // listen for connections
-app.listen(1337, function() {
-  console.log('Testing app listening on port 1337')
+app.listen(8080, function() {
+  console.log('Testing app listening on port 8080')
 });
